@@ -1,7 +1,38 @@
-.venv
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
 
-.idea
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
 
+# Environment
 .env
+.env.local
+.env.*.local
 
+# Database
 database.db
+*.db
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Docker
+.dockerignore
