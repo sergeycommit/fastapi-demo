@@ -13,8 +13,8 @@ app.include_router(chat.router)
 app.include_router(graph.router)
 
 
-@app.get("/")
-def read_root():
+@app.get("/health")
+async def health():
     return {"Hello!": "Это чат с AI моделью. Авторизуйся и общайся с AI через /chat"}
 
 
